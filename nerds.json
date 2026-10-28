@@ -1,5 +1,6 @@
 {
   "app": "soundcraft",
   "upstream": "storytold/soundcraft",
-  "name": "NERDS Sound"
+  "name": "NERDS Sound",
+  "upstream_name": "SoundCraft"
 }
