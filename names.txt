@@ -1,0 +1,48 @@
+NERDS names: 43 changes, 3 kept, 0 warnings
+
+rust  apps/soundcraft-cli/src/catalog.rs:30  "It compares the incumbent's menu tree (feature names observed black-box, `crates/engine/ca" -> "It compares the incumbent's menu tree (feature names observed black-box, `crates/engine/ca"
+rust  apps/soundcraft/build.rs:17  'SoundCraft' -> 'NERDS Sound'
+rust  apps/soundcraft/build.rs:18  'SoundCraft digital audio workstation' -> 'NERDS Sound digital audio workstation'
+rust  apps/soundcraft/build.rs:19  'Learning Machines LLC' -> 'NERDS Craft'
+kept  apps/soundcraft/src/config.rs:51  Platform::Windows => env("APPDATA").map(|a| PathBuf::from(a).join("SoundCraft")),
+rust  apps/soundcraft/src/main.rs:86  '{}{} — SoundCraft — {}' -> '{}{} — NERDS Sound — {}'
+rust  apps/soundcraft/src/main.rs:92  '{} — SoundCraft' -> '{} — NERDS Sound'
+rust  apps/soundcraft/src/main.rs:152  'SoundCraft Session' -> 'NERDS Sound Session'
+rust  apps/soundcraft/src/main.rs:161  'SoundCraft Session' -> 'NERDS Sound Session'
+rust  apps/soundcraft/src/main.rs:201  'SoundCraft {}' -> 'NERDS Sound {}'
+rust  apps/soundcraft/src/main.rs:224  'SoundCraft' -> 'NERDS Sound'
+kept  apps/soundcraft/src/main.rs:249  "SoundCraft",
+rust  apps/soundcraft/src/native_menu.rs:34  'SoundCraft' -> 'NERDS Sound'
+rust  apps/soundcraft/src/native_menu.rs:35  'About SoundCraft' -> 'About NERDS Sound'
+rust  apps/soundcraft/src/native_menu.rs:42  'Hide SoundCraft' -> 'Hide NERDS Sound'
+rust  apps/soundcraft/src/native_menu.rs:46  'Quit SoundCraft' -> 'Quit NERDS Sound'
+rust  crates/automation/src/lib.rs:119  'cannot reach SoundCraft at {addr}: no addresses found' -> 'cannot reach NERDS Sound at {addr}: no addresses found'
+rust  crates/automation/src/lib.rs:121  'cannot reach SoundCraft at {addr}: {source}' -> 'cannot reach NERDS Sound at {addr}: {source}'
+rust  crates/automation/src/lib.rs:247  'SoundCraft app at {}' -> 'NERDS Sound app at {}'
+rust  crates/automation/src/mcp.rs:12  'SoundCraft is a digital audio workstation (Pro Tools-class). Everything a user can do is a' -> 'NERDS Sound is a digital audio workstation (Pro Tools-class). Everything a user can do is '
+rust  crates/automation/src/mcp.rs:30  'List SoundCraft commands (id, label, menu path, shortcut, params doc, enabled).' -> 'List NERDS Sound commands (id, label, menu path, shortcut, params doc, enabled).'
+rust  crates/clap-host/src/ffi/gui.rs:127  'this plugin offers only an embedded editor, which SoundCraft hosts on Windows only' -> 'this plugin offers only an embedded editor, which NERDS Sound hosts on Windows only'
+rust  crates/engine/src/autosave.rs:376  'not in a folder SoundCraft records into' -> 'not in a folder NERDS Sound records into'
+rust  crates/engine/src/autosave.rs:383  'not a take SoundCraft recorded' -> 'not a take NERDS Sound recorded'
+rust  crates/engine/src/clip_group_file.rs:124  'not a SoundCraft clip group file' -> 'not a NERDS Sound clip group file'
+rust  crates/engine/src/cmd/track_more.rs:277  '{path}: not a SoundCraft track preset' -> '{path}: not a NERDS Sound track preset'
+rust  crates/engine/src/io/bundle.rs:104  '{name}: not a SoundCraft session' -> '{name}: not a NERDS Sound session'
+rust  crates/model/src/session.rs:18  'not a SoundCraft session: {0}' -> 'not a NERDS Sound session: {0}'
+rust  crates/model/src/session.rs:20  'session file version {0} is newer than this SoundCraft supports' -> 'session file version {0} is newer than this NERDS Sound supports'
+rust  crates/ui-egui/src/app/audio.rs:62  'Use Reconnect audio device in Setup › Playback Engine, or restart SoundCraft.' -> 'Use Reconnect audio device in Setup › Playback Engine, or restart NERDS Sound.'
+rust  crates/ui-egui/src/app/files.rs:108  'SoundCraft hit an internal error (see the log). Your changes were autosaved: save them, th' -> 'NERDS Sound hit an internal error (see the log). Your changes were autosaved: save them, t'
+rust  crates/ui-egui/src/app/files.rs:110  'SoundCraft hit an internal error (see the log). Restart SoundCraft to be safe.' -> 'NERDS Sound hit an internal error (see the log). Restart NERDS Sound to be safe.'
+rust  crates/ui-egui/src/menus.rs:27  'About SoundCraft' -> 'About NERDS Sound'
+rust  crates/ui-egui/src/menus.rs:232  'SoundCraft' -> 'NERDS Sound'
+rust  crates/ui-egui/src/menus.rs:233  'About SoundCraft' -> 'About NERDS Sound'
+rust  crates/ui-egui/src/panels/about.rs:10  'About SoundCraft' -> 'About NERDS Sound'
+rust  crates/ui-egui/src/panels/about.rs:25  'SoundCraft' -> 'NERDS Sound'
+rust  crates/ui-egui/src/updates_ui.rs:85  'SoundCraft {} is currently the newest version available.' -> 'NERDS Sound {} is currently the newest version available.'
+rust  crates/video/src/movie.rs:258  '{width}x{height} is larger than SoundCraft decodes' -> '{width}x{height} is larger than NERDS Sound decodes'
+kept  crates/vst3-host/src/ffi/host.rs:48  write_c16("SoundCraft", n);
+win   packaging/windows/install-policy.json  (1 lines)
+win   packaging/windows/package.ps1  (1 lines)
+win   packaging/windows/soundcraft.wxs  (9 lines)
+mac   packaging/macos/Info.plist.in  (5 lines)
+mac   packaging/macos/dmg/generate.py  (2 lines)
+mac   packaging/macos/package.sh  (11 lines)
