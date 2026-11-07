@@ -1,0 +1,9 @@
+total 70304
+-rw-r--r-- 1 runner runner      421 Nov  7 06:05 SHA256SUMS.txt
+-rw-r--r-- 1 runner runner 30248181 Nov  7 06:05 soundcraft-0.18.0-macos-universal.dmg
+-rw-r--r-- 1 runner runner 18911846 Nov  7 06:05 soundcraft-0.18.0-windows-x64-portable.zip
+-rw-r--r-- 1 runner runner 14635008 Nov  7 06:05 soundcraft-0.18.0-windows-x64.msi
+-rw-r--r-- 1 runner runner  8185632 Nov  7 06:05 soundcraft-cli-0.18.0-macos-universal.zip
+5242 /home/runner/work/_temp/notes.md
+https://github.com/nerds-coach/nerds-sound/releases/tag/untagged-19f6911c0a6074f54a4e
+https://github.com/nerds-coach/nerds-sound/releases/tag/v0.18.0
